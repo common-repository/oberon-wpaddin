@@ -1,0 +1,74 @@
+// Exalogic Guest Check-In 1.1 by Mario Moravcik - October 2021
+// Language: Slovensky (sk)  -- V prípade ak nie je nájdený súbor prekladu budú použité texty v tomto súbore
+
+reservationTitle                Rezervácia
+lblNumberShort                  č.
+lblDateArrival                  Príchod
+lblDateDeparture                Odchod
+lblNigthCount                   Počet nocí
+lblReservationState             Stav rezervácie
+lblPersons                      Osoby
+
+lblGuest                        Osoba
+lblGivenName                    Meno
+lblFamilyName                   Priezvisko
+lblBirthDate                    Dátum narodenia
+lblBirthPlace                   Miesto narodenia
+lblPersonalDocument             Číslo dokladu totožnosti
+lblLoyaltyCard                  Číslo vernostnej karty
+lblNotice                       Poznámka
+lblEmail                        E-mail
+lblPhone                        Telefón
+lblAddress                      Adresa
+lblStreet                       Ulica
+lblPostCode                     PSČ
+lblCity                         Obec
+lblCountry                      Krajina
+lblVisa                         Víza
+lblVisaType                     Typ víza
+lblVisaNumber                   Číslo
+lblVisaIssuer                   Vydavateľ
+lblVisaValidFrom                Platnosť od
+lblVisaValidTo                  Platnosť do
+
+#eopp-submit-checkin            Odoslať
+
+lblAsterisk                     Povinné polia.
+lblAsteriskDouble               Povinné v prípade dospelých osôb.
+
+modalTitleValidate              Overenie údajov
+modalTitleOnLoad                Načítanie údajov
+modalSubmitTitle                Odoslanie údajov
+modalSubmitText                 Odoslať identifikačné údaje osôb?
+modalSubmitSucceessfull         Identifikačné údaje osôb boli úspešne odoslané.
+
+stateOnlineRequest              Nový On-line dopyt
+stateRequestInProgress          Dopyt (vybavuje sa)
+stateOnLineReservation			Nová On-line rezervácia
+stateOnLineInProgress	        On-line rezervácia (vybavuje sa)
+stateNotConfirmed				Nepotvrdená rezervácia
+stateConfirmed					Potvrdená rezervácia
+stateConfirmedAdvance			Rezervácia so zálohou
+stateCanceled					Zrušená rezervácia
+stateUnknown                    Neznámy stav
+
+visaTypes                       A,Letiskové tranzitné vízum (A vízum);C,Jednotné vízum (C vízum);LTV,Vízum s obmedzenou územnou platnosťou (LTV vízum);D,Národné dlhodobé vízum (D vízum)
+
+#modalSubmitClose               Zatvoriť
+#l_footer_about_title           O nás
+#footerTitleContact             Kontakt
+
+//Chybové hlásenia
+err_FormNotAvailable            Formulár aktuálne nie je dostupný.
+err_ReservationNotFoud          Záznam rezervácie nebol nájdený v evidencii hotelovej recepcie.
+
+err_EmptyPerson                 Objekt osoby nie je inicializovaný.
+err_EmptyGivenName              Nie je zadané meno.
+err_EmptyFamilyName             Nie je zadané priezvisko.
+err_EmptyDateOfBirth            Nie je zadané dátum narodenia.
+err_EmptyPlaceOfBirth           Nie je zadané miesto narodenia.
+err_EmptyCitizenship            Nie je zadaný štát (občianstvo).
+
+err_l_Number                    Číslo chyby:
+err_l_Text                      Text chyby:
+err_Availability                Pri pokuse o pripojenie na rezervačný systém ubytovacieho zariadenia došlo k problému (Web Service server neodpovedá). Pokúste sa otvoriť formulár neskôr, prípadne kontaktujte ubytovacie zariadenie e-mailom.

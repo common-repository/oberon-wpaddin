@@ -1,0 +1,116 @@
+/*
+ OBERON - WP Add-in - 1.0
+ by Mario Moravcik - November 2020
+*/
+.oberonbs *, .oberonbs ::after, .oberonbs ::before { box-sizing: border-box; }
+.oberonbs { min-width: 200px;font-family: "Helvetica Neue", helvetica, arial, sans-serif;font-size: 1em;}
+
+.oberonbs .btn { display: inline-block; font-weight: 400;color: #212529; text-align: center; vertical-align: middle;user-select: none;background-color: transparent;border: 1px solid transparent;border-top-color: transparent;border-right-color: transparent;border-bottom-color: transparent;border-left-color: transparent;padding: .375em .75em;font-size: 1em;line-height: 1.5;border-radius: .25em;
+        border-top-left-radius:.25em;border-bottom-left-radius: .25em;transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.oberonbs .owpa-error-panel { display: block; background-color: #fff; overflow: hidden; border-bottom-right-radius: .4em; border-bottom-left-radius: .4em; padding: .5em; }
+.oberonbs .owpa-error-icon { height: 3em; width: 3em; float:left; }
+.oberonbs .owpa-error-message { margin-left: 4em; }
+
+
+.oberonbs .container { width: 100%; padding-right: 15px; padding-left: 15px; margin-right: auto; margin-left: auto; }
+.oberonbs .container .row .btn-right { padding-right: 0; }
+.oberonbs .container .title { margin: .5em 0; }
+.oberonbs .container h4,
+.oberonbs .container h3 { margin: 0;float:left; padding:0; clear: none;line-height: 1.4; }
+.oberonbs .container h4 { font-size: 1.2em; font-weight: 600;}
+.oberonbs .container h3 { font-size: 1em;padding: .2em 0 0 .3em; font-weight: 400;}
+.oberonbs .guest-item h4 { padding: .3em 0 0 0; }
+
+.oberonbs .spacer-1 { margin-bottom: 1em; }
+.oberonbs .spacer-no1 { margin-bottom: -1em; }
+
+.oberonbs .reservation,
+.oberonbs .guest-item { border: solid 1px #dadada; border-radius: .4em;margin-bottom: 1em; box-shadow: 0 2px 8px 3px rgba(0, 0, 0, 0.1); background-color: #fff; }
+.oberonbs .form-control { display: block;width: 100%;height: calc(1.5em + .75em + 2px);padding: .375em .75em;font-size: 1em;font-weight: 400;line-height: 1.5;color: #495057;background-color:#f9f9f9;background-clip: padding-box;border: 1px solid #ced4da;border-radius: .25em;transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out; }
+.oberonbs .form-group { margin-bottom: 1em; }
+.oberonbs .form-group label { display: inline-block;font-weight: 300;}
+.oberonbs .form-control::placeholder { color: #6c757d; }
+.oberonbs .form-control::selection { color: #fff; background: #4fc1f0; text-shadow: none; }
+.oberonbs .form-control-plaintext { display: inline-block;color: #212529;display: block;width: 100%;padding: .175em 0;margin-bottom: 0;font-size: 1em;line-height: 1.5;background-color: transparent;border: solid transparent;border-width: 1px 0; }
+
+.oberonbs button, input { outline:medium none; color:#242424; } 
+.oberonbs button.btn-flat {border-color: #dadada;border-radius: .3em; background-color: inherit; float: right; height: 100%;background-color: #f0f0f0; }
+.oberonbs button.btn-flat::after { display: inline-block;margin-left: .255em;margin-right: .10em;vertical-align: .100em;content: "";border-top: .3em solid transparent;border-right: 0;border-bottom: .3em solid transparent;border-left: .3em solid; }
+.oberonbs button.btn-flat.closed::after {vertical-align: .240em; margin-left: .100em;margin-right: 0;border-top: .3em solid;border-right: .3em solid transparent;border-bottom: 0;border-left: .3em solid transparent; }
+.oberonbs button.btn-flat.btnReservationToggle { border-radius: 0;border-bottom-left-radius: .3em;border-top-right-radius: .3em; border-right: none; border-top: none; }
+.oberonbs button.btn-flat.btnReservationToggle.closed { border-bottom-left-radius: 0;border-bottom-right-radius: .3em;  border-bottom: none; }
+
+.oberonbs button.btn.secondary { background-color: #552b83;color: #fff;border: none;border-radius: .25em !important;display: inline-block;font-size: 1.1em;font-weight: 500;padding: .7em 0;transition: all 0.3s ease 0s;cursor: pointer;width: 100%; }
+
+.oberonbs .form-inline { display: flex;flex-flow: row wrap;align-items: center; }
+.oberonbs .row { display: flex;flex-wrap: wrap;margin-right: -15px;margin-left: -15px; }
+
+.oberonbs .row .col-6,.oberonbs .row .col-8, .oberonbs .row .col-10, .oberonbs .row .col-12, .oberonbs .row .col-2, .oberonbs .row .col-lg-4, .oberonbs .row .col-lg-6, .oberonbs .row .col-lg-3, .oberonbs .row .col-lg-12,
+.oberonbs .row .col-md-6, .oberonbs .row .col-sm-6, .oberonbs .row .col-sm-8, .oberonbs .row .col-md-8 { position: relative;width: 100%;padding-right: 15px;padding-left: 15px; }
+.oberonbs .row .col-2 { flex: 0 0 16.666667%; max-width: 16.666667%; }
+.oberonbs .row .col-6 { flex:0 0 50%; max-width:50%; }
+.oberonbs .row .col-8, .oberonbs .row .col-lg-8 { flex:0 0 66.666667%; max-width:66.666667% }
+.oberonbs .row .col-10 { flex: 0 0 83.333333%; max-width: 83.333333%; }
+
+
+.oberonbs .input-group { position: relative;display: flex;flex-wrap: wrap;align-items: stretch;width: 100%; }
+.oberonbs .input-group > .custom-file, .oberonbs .input-group > .custom-select, .oberonbs .input-group > .form-control, .oberonbs .input-group > .form-control-plaintext { position: relative;flex: 1 1 auto;width: 1%;min-width: 0;margin-bottom: 0; }
+
+.oberonbs .col-form-label { padding-top: calc(.175em + 1px);padding-bottom: calc(.175em + 1px); margin-bottom: 0;font-size: inherit; line-height: 1.2; }
+
+.oberonbs .form-inline .form-control-plaintext{ display:block;width: 100%;padding:calc(.175em + 1px) 0;margin-bottom: 0;font-size:1em;line-height: 1.5;color: #212529;background-color: transparent;border: solid transparent;border-width: 1px 0;text-overflow:ellipsis; }
+.oberonbs .form-inline .form-group { display: flex;flex: 0 0 auto;flex-flow: row wrap;align-items: center; margin: 0 -15px 0 -15px; }
+.oberonbs .form-inline .spacer-1 { margin-bottom: .5em; }
+
+.oberonbs .input-group-append { display: flex; margin-left: -1px; }
+.oberonbs .input-group > .custom-select:not(:last-child), .oberonbs .input-group > .form-control:not(:last-child) { border-top-right-radius: 0;border-bottom-right-radius: 0; }
+.oberonbs .input-group > .input-group-append > .btn, .oberonbs .input-group > .input-group-append > .input-group-text { border-top-left-radius: 0;border-bottom-left-radius: 0; }
+.oberonbs .btn-outline-secondary.combo-toggle, .oberonbs .btn-outline-secondary.combo-toggle:focus { color: #495057; background-color: #f9f9f9; border-color: #ced4da; }
+.oberonbs .input-group-append .btn, .oberonbs .input-group-prepend .btn { position: relative; z-index: 2; }
+
+.oberonbs .combo-toggle { white-space: nowrap; margin: 0; right: 0;height:auto; }
+.oberonbs .combo-menu { position: absolute;top: 100%;left: 0;z-index: 1000;display: block;float: left;min-width: 10em;padding: .5em 0;margin: .125em 0 0;font-size: 1em;color: #212529;text-align: left;list-style: none;background-color: #fff;background-clip: padding-box;border: 1px solid rgba(0,0,0,.15);border-radius: .25em; }
+.oberonbs .combo-menu.closed { display: none; }
+.oberonbs .combo-item { display: block;width: 100%;padding: .25em 1.5em;clear: both;font-weight: 400;color: #212529;text-align: inherit;white-space: nowrap;background-color: transparent;border: 0; }
+.oberonbs .combo-item { text-decoration: none;background-color: transparent;box-shadow: none; }
+.oberonbs .combo-item:hover { text-decoration: none;background-color: #f0f0f0;box-shadow: none; }
+
+.oberonbs .combo-toggle:empty::after { margin-left: 0; }
+.oberonbs .combo-toggle::after { display: inline-block; margin-left: .255em; vertical-align: .255em; content: ""; border-top: .3em solid; border-right: .3em solid transparent; border-bottom: 0; border-left: .3em solid transparent;width: auto; font-size: inherit; }
+.oberonbs .combo-scrollable { height: auto; max-height: 21em; overflow-x: hidden; }
+
+.oberonbs .modal { position: fixed;top: 0;left: 0;z-index: 1050;display: none;width: 100%;height: 100%;overflow: hidden auto;outline: 0; transition: opacity .15s linear; }
+.oberonbs .owpa-modal-backdrop { background-color: #000;opacity: .5;position: fixed;top: 0;left: 0;z-index: 1040;width: 100vw;height: 100vh; }
+.oberonbs .owpa-modal-dialog { transition: transform .3s ease-out,-webkit-transform .3s ease-out;min-height: calc(100% - 3.5em);display: flex;align-items: center;position: relative;width: auto;max-width: 500px;margin: 1.75em auto;z-index: 1060; }
+.oberonbs .owpa-modal-content { position: relative;display: flex;flex-direction: column;width: 100%;pointer-events: auto;background-color: #fff;background-clip: padding-box;border: 1px solid rgba(0,0,0,.2);border-radius: .3em;outline: 0; }
+.oberonbs .owpa-modal-header { display: flex;align-items: flex-start;justify-content: space-between;padding: 1em 1em;border-bottom: 1px solid #dee2e6;border-top-left-radius: calc(.3em - 1px);border-top-right-radius: calc(.3em - 1px);background-color:#eee;font-weight: 600; }
+.oberonbs .owpa-modal-body { position: relative;flex: 1 1 auto;padding: 1em; }
+.oberonbs .owpa-modal-buttons { display: flex;flex-wrap: wrap;align-items: center;justify-content: flex-end;padding: .75em;border-top: 1px solid #dee2e6;border-bottom-right-radius: calc(.3em - 1px);border-bottom-left-radius: calc(.3em - 1px); }
+.oberonbs .owpa-button-ok { color: #fff;background-color: #007bff;border-color: #007bff; }
+.oberonbs .owpa-button-ok:hover { background-color: #0069d9;border-color: #0062cc; }
+.oberonbs .owpa-button-close { color: #fff;background-color:#a8a8a8;border-color:#9f9f9f;margin-left: .5em; }
+.oberonbs .owpa-button-close:hover { background-color:#969797;border-color:#7c7c7d; }
+.oberonbs .owpa-modal-icon { height: 3em; width: 3em; float:left; }
+.oberonbs .owpa-modal-message { margin-left: 4em; }
+
+@media (min-width:360px){
+    .oberonbs .form-inline label { display: flex;align-items: left;justify-content: left;margin-bottom: 0;padding-bottom: 0; padding-top: 0; }    
+    .oberonbs .form-inline .col-sm-6 {flex: 0 0 50%;max-width: 50%; }
+}
+
+@media (min-width:576px){
+    .oberonbs .col-sm-6 {flex: 0 0 50%;max-width: 50%; }
+}
+
+@media (min-width:768px){ 
+    .oberonbs .col-md-6{flex:0 0 50%;max-width:50%}   
+}
+
+@media (min-width:992px) {
+    .oberonbs .col-lg-3{flex:0 0 25%;max-width:25%}
+    .oberonbs .col-lg-4{flex:0 0 33.333333%;max-width:33.333333%}
+    .oberonbs .col-lg-6{flex:0 0 50%;max-width:50%}
+    .oberonbs .col-lg-9{flex: 0 0 75%;max-width: 75%;} 
+}

@@ -1,0 +1,114 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: OBERON - WP Add-in\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2020-10-15 13:39+0530\n"
+"PO-Revision-Date: 2020-10-15 13:39+0530\n"
+"Last-Translator: \n"
+"Language-Team: Mario Moravcik\n"
+"MIME-Version: 1.1\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: en\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ../\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e;_x;_n;esc_html__;esc_html_e\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: owpa_admin.php:122
+msgid "OBERON Plugins"
+msgstr ""
+
+#: owpa_check_in_widget.php:30
+msgid "On-line form for guests to pre-fill of personal data required for check-in."
+msgstr ""
+
+#: owpa_check_in_widget.php:98
+msgid "OBERON Web service connector version"
+msgstr ""
+
+#: owpa_check_in_widget.php:103
+msgid "Before using this plugin, the OBERON Web service url have to set in the plugin settings."
+msgstr ""
+
+#: owpa_check_in_widget.php:107
+msgid "Web service url"
+msgstr ""
+
+#: owpa_admin_settings_page.php:34
+msgid "OBERON Plugins"
+msgstr ""
+
+#: owpa_admin_settings_page.php:36
+msgid "This plugin is a collection of modules for communication with <b>OBERON - Company agenda</b> system via web service API. The plugin uses <b>OBERON Center</b> web service for online communication with company internal system to provide various interfaces like on-line check-in for company customers and users."
+msgstr ""
+
+#: owpa_admin_settings_page.php:45
+msgid "Save Changes"
+msgstr ""
+
+#: owpa_admin_settings_page.php:50
+msgid "Common settings"
+msgstr ""
+
+#: owpa_admin_settings_page.php:56
+msgid "Hotel"
+msgstr ""
+
+#: owpa_admin_settings_page.php:63
+msgid "OBERON Center is an integral part of OBERON system and is used for background tasks. These include running web services servers used for online communication."
+msgstr ""
+
+#: owpa_admin_settings_page.php:67
+msgid "OBERON Web is an online web service module of OBERON Center for communication between system OBERON and its web components or third party services."
+msgstr ""
+
+#: owpa_admin_settings_page.php:70
+msgid "How to"
+msgstr ""
+
+#: owpa_admin_settings_page.php:72
+msgid "The most important thing is to ensure that the web service is availabe online for Internet access. This is done with public IP and port configured by the companies ISP (internet services provider)."
+msgstr ""
+
+#: owpa_admin_settings_page.php:73
+msgid "The second major step is to configure internal network and firewalls to allow access from the Internet to the specific port used by OBERON Web service for communication. This should secured by the company internal network administrator."
+msgstr ""
+
+#: owpa_admin_settings_page.php:75
+msgid "The next step (if not already done) is to install new </em>OBERON Web</em> service. Full documentation in slovak language is available in the"
+msgstr ""
+
+#: owpa_admin_settings_page.php:76
+msgid "on-line help"
+msgstr ""
+
+#: owpa_admin_settings_page.php:79
+msgid "Basic settings"
+msgstr ""
+
+#: owpa_admin_settings_page.php:81
+msgid "web service url"
+msgstr ""
+
+#: owpa_admin_settings_page.php:83
+msgid "Test connection"
+msgstr ""
+
+#: owpa_admin_settings_page.php:91
+msgid "The module is intended for guests to pre-fill their personal data (usualy from home) required for check-in upon arrival at accommodation facility. By filling their data in advance, they can make their check-in process more convenient and faster. It also enables them to check the status of their reservation."
+msgstr ""
+
+#: owpa_admin_settings_page.php:93
+msgid "Add to page"
+msgstr ""
+
+#: owpa_admin_settings_page.php:95
+msgid "Place the following shortcode inside wordpress page (preferred)"
+msgstr ""
+
+#: owpa_admin_settings_page.php:96
+msgid "Add widget to the widget panel."
+msgstr ""

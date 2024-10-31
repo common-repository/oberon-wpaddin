@@ -1,0 +1,74 @@
+// Exalogic Guest Check-In 1.1 by Mario Moravcik - October 2021
+// Language: English (en)
+
+reservationTitle                Reservation
+lblNumberShort                  no.
+lblDateArrival                  Arrival
+lblDateDeparture                Departure
+lblNigthCount                   Nights
+lblReservationState             Reservation state
+lblPersons                      Persons
+
+lblGuest                        Person
+lblGivenName                    Name
+lblFamilyName                   Family name
+lblBirthDate                    Birth date
+lblBirthPlace                   Birth place
+lblPersonalDocument             Personal document number
+lblLoyaltyCard                  Loyalty card number
+lblNotice                       Notice
+lblEmail                        E-mail
+lblPhone                        Phone
+lblAddress                      Address
+lblStreet                       Street
+lblPostCode                     ZIP
+lblCity                         Town
+lblCountry                      Country
+lblVisa                         Visa
+lblVisaType                     Visa type
+lblVisaNumber                   Number
+lblVisaIssuer                   Place of issue
+lblVisaValidFrom                Valid from
+lblVisaValidTo                  Valid to
+
+#eopp-submit-checkin            Send
+
+lblAsterisk                     Mandatory fields.
+lblAsteriskDouble               Mandatory fields for adults.
+
+modalTitleValidate              Validation
+modalTitleOnLoad                Reservation load
+modalSubmitTitle                Submit data
+modalSubmitText                 Submit personal identification data?
+modalSubmitSucceessfull         Personal identification data successfully sent.
+
+stateOnlineRequest              New online request
+stateRequestInProgress          Request (in progress)
+stateOnLineReservation			New online reservation
+stateOnLineInProgress	        Reservation (in progress)
+stateNotConfirmed				Not confirmed
+stateConfirmed					Confirmed
+stateConfirmedAdvance			Confirmed with advance payment
+stateCanceled					Canceled
+stateUnknown                    Unknown state
+
+visaTypes                       A,Airport transit Visa (A visa);C,Uniform Visa (C visa);LTV,Visa with Limited Territorial Validity (LTV visa);D,National Long-stay Visa (D visa)
+
+#modalSubmitClose               Close
+#l_footer_about_title           About us
+#footerTitleContact             Contact
+
+//Chybové hlásenia
+err_FormNotAvailable            Form is not available.
+err_ReservationNotFoud          Reservation not found in hotel evidence.
+
+err_EmptyPerson                 Guest object not initialized.
+err_EmptyGivenName              Name not specified.
+err_EmptyFamilyName             Family name not specified.
+err_EmptyDateOfBirth            Birth date not specified.
+err_EmptyPlaceOfBirth           Place of birth not specified.
+err_EmptyCitizenship            Country (citizenship) not specified.
+
+err_l_Number                    Error number:
+err_l_Text                      Error text:
+err_Availability                There is a problem with the connection to the accommodation reservation system (Web Service server not responding). Try to open this form later or contact the accommodation by e-mail.

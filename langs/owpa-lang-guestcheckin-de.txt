@@ -1,0 +1,74 @@
+// Exalogic Guest Check-In 1.1 by Mario Moravcik - October 2021
+// Language: Deutsch (de)
+
+reservationTitle                Reservierung
+lblNumberShort                  nr.
+lblDateArrival                  Anreise
+lblDateDeparture                Abreise
+lblNigthCount                   Nächte
+lblReservationState             Status
+lblPersons                      Personen
+
+lblGuest                        Person
+lblGivenName                    Vohrnahme
+lblFamilyName                   Nachname
+lblBirthDate                    Geburtsdatum
+lblBirthPlace                   Geburtsort
+lblPersonalDocument             Ausweisnummer
+lblLoyaltyCard                  Treuekartenummer
+lblNotice                       Notiz
+lblEmail                        E-mail
+lblPhone                        Telefon
+lblAddress                      Adresse
+lblStreet                       Strasse
+lblPostCode                     PLZ
+lblCity                         Stadt
+lblCountry                      Land
+lblVisa                         Visa
+lblVisaType                     Visa type
+lblVisaNumber                   Nummer
+lblVisaIssuer                   Ausstellungsort
+lblVisaValidFrom                Gültig ab
+lblVisaValidTo                  Gültig bis
+
+#eopp-submit-checkin            Senden
+
+lblAsterisk                     Pflichtfelder.
+lblAsteriskDouble               Pflichtfelder bei erwachsene.
+
+modalTitleValidate              Datenbestätigung
+modalTitleOnLoad                Laden der Formulardaten
+modalSubmitTitle                Daten senden
+modalSubmitText                 Personal Identifikationsdaten senden?
+modalSubmitSucceessfull         Personal Identifikationsdaten erfolgreich gesendet.
+
+stateOnlineRequest              Neue online Nachfrage
+stateRequestInProgress          Nachfrage (wird verarbeitet)
+stateOnLineReservation			Neue online Reservazion
+stateOnLineInProgress	        Reservazion (wird verarbeitet)
+stateNotConfirmed				Nicht bestätigt
+stateConfirmed					Bestätigt
+stateConfirmedAdvance			Bestätigt (Anzahlung)
+stateCanceled					Storno
+stateUnknown                    Unbekannter Status
+
+visaTypes                       A,Flughafentransitvisum (A visum);C,Einheitliches Visum (C visum);LTV,Begrenztes Visum (LTV visum);D,Langzeit Nationales Visum (D visum)
+
+#modalSubmitClose               Abbrechen
+#l_footer_about_title           Über uns
+#footerTitleContact             Kontakt
+
+//Chybové hlásenia
+err_FormNotAvailable            Das Formular ist derzeit nicht verfügbar.
+err_ReservationNotFoud          Die Reservierung wurde in der Hotel system nicht gefunden.
+
+err_EmptyPerson                 Gastobjekt nicht initialisiert.
+err_EmptyGivenName              Name nicht angegeben.
+err_EmptyFamilyName             Nachname nicht angegeben.
+err_EmptyDateOfBirth            Geburtsdatum nicht angegeben.
+err_EmptyPlaceOfBirth           Geburtsort nicht angegeben.
+err_EmptyCitizenship            Land (Staatsbürgerschaft) nicht angegeben.
+
+err_l_Number                    Fehlernummer:
+err_l_Text                      Fehlertext:
+err_Availability                Es gibt ein Problem mit Unterkunfts Reservierungssystem Verbindung (de Web Service-Server antwortet nicht). Versuchen Sie, dieses Formular später zu öffnen, oder wenden Sie sich per E-Mail an die Unterkunft.
